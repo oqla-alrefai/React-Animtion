@@ -23,14 +23,25 @@
 .looopiaSection div {
     border-radius: 50%;
     position: absolute;
-    border: 4px solid #3498db;
+    border: 3px solid #3498db;
     border-top: 3px solid #070f15;
-    top: calc(10px * var(--i));
-    left: calc(10px * var(--i));
-    width: calc(10px * var(--size));
-    height: calc(10px * var(--size));
-    animation-delay: calc(0.1s * var(--i));
+    top: calc(9px * var(--i));
+    left: calc(9px * var(--i));
+    width: calc(9px * var(--size));
+    height: calc(9px * var(--size));
     animation: spin 2s linear infinite;
+}
+
+.loopia_loader div:first-child {
+    animation-delay: calc(0.1s * var(--i));
+}
+
+.loopia_loader div:nth-child(2) {
+    animation-delay: calc(0.3s * var(--i));
+}
+
+.loopia_loader div:nth-child(3) {
+    animation-delay: calc(0.5s * var(--i));
 }
 
 @keyframes spin {

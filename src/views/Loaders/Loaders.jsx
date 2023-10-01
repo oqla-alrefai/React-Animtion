@@ -4,7 +4,7 @@ function Loaders() {
   return (
     <>
       <SpectrumLoader />
-      <LooopiaLoader />
+      {/* <LooopiaLoader /> */}
     </>
   );
 }

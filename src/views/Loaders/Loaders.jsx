@@ -1,10 +1,17 @@
-import { SpectrumLoader, LooopiaLoader } from "../../Components";
+import {
+  SpectrumLoader,
+  LooopiaLoader,
+  JumpSlider,
+  StairLoader,
+} from "../../Components";
 
 function Loaders() {
   return (
     <>
-      <SpectrumLoader />
-      {/* <LooopiaLoader /> */}
+      {/* <SpectrumLoader /> */}
+      {/* <LooopiaLoader />
+      <JumpSlider /> */}
+      <StairLoader />
     </>
   );
 }

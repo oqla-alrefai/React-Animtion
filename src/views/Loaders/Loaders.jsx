@@ -11,7 +11,7 @@ function Loaders() {
       {/* <SpectrumLoader /> */}
       {/* <LooopiaLoader />
       <JumpSlider /> */}
-      <StairLoader />
+      {/* <StairLoader /> */}
     </>
   );
 }

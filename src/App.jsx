@@ -1,10 +1,11 @@
 import "./App.css";
-import { Loaders } from "./views";
+import { Loaders, Movements } from "./views";
 
 function App() {
   return (
     <>
       <Loaders />
+      <Movements />
     </>
   );
 }

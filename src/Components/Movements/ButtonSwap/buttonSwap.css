@@ -1,0 +1,44 @@
+.button_swap_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    min-height: 500px;
+    background: #130b0c;
+}
+
+.button_track {
+    width: 80px;
+    height: 25px;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    position: relative;
+    background-color: rgb(151, 180, 204);
+}
+
+.button_ball {
+    width: 40px;
+    height: 40px;
+    background-color: lightblue;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+.rotate_and_swap_right {
+    transform: translateX(50px) rotate(-410deg);
+}
+
+.rotate_and_swap_left {
+    transform: translateX(-5px) rotate(-125deg);
+}
+
+.button_arrow{
+    color: #130b0c;
+}

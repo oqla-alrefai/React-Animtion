@@ -9,9 +9,9 @@ function Loaders() {
   return (
     <>
       {/* <SpectrumLoader /> */}
-      {/* <LooopiaLoader />
-      <JumpSlider /> */}
-      {/* <StairLoader /> */}
+      <LooopiaLoader />
+      <JumpSlider />
+      <StairLoader />
     </>
   );
 }

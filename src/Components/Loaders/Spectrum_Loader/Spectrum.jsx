@@ -2,17 +2,17 @@ import "./spectrum.css";
 import { useState } from "react";
 
 function SpectrumLoader() {
-  let intialState = {
+  let initialState = {
     glowing_duration: 10,
     background_color: "#042104",
     dot_color: "#00ff0a",
     shadows_color: "#00ff0a",
     orbits_number: 2,
   };
-  let [state, setState] = useState(intialState);
+  let [state, setState] = useState(initialState);
 
   function handleChange(event) {
-    event.preventDefault();
+    event.preventDefault(); 
     const { name, value } = event.target;
 
     setState((prevState) => ({
@@ -22,7 +22,7 @@ function SpectrumLoader() {
   }
 
   function handleReset() {
-    setState(intialState);
+    setState(initialState);
   }
 
   return (

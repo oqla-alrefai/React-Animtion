@@ -1,11 +1,12 @@
 import "./App.css";
-import { Loaders, Movements } from "./views";
+import { Loaders, Movements, ReactComponents } from "./views";
 
 function App() {
   return (
     <>
-      <Loaders />
-      <Movements />
+      {/* <Loaders />
+      <Movements /> */}
+      <ReactComponents />
     </>
   );
 }

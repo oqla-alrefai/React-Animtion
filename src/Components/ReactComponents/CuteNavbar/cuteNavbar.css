@@ -1,0 +1,121 @@
+:root {
+    --background-color: #222328;
+    --indicator-color: #2BFA56;
+}
+
+.cute_navbar_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    min-height: 500px;
+    background-color: var(--background-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.cute_navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 407px;
+    height: 70px;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+}
+
+.cute_navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    position: relative;
+}
+
+.cute_navbar ul li{
+    list-style: none;
+    width: 70px;
+    z-index: 1;
+}
+
+.cute_navbar ul li#cute_navbar_active a .cute_navbar_icon{
+    transform: translateY(-35px);
+}
+
+.cute_navbar ul li a .cute_navbar_icon {
+    color: var(--background-color);
+    font-size: 1.6em;
+    padding-bottom: 40px;
+    padding-top: 100px;
+    transition: 0.8s;
+}
+
+.cute_navbar ul li a {
+    position: relative;
+    text-decoration: none;
+    color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.cute_navbar ul li a span {
+    font-size: 0.8em;
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    opacity: 0;
+    letter-spacing: 0.05em;
+    transform: translateY(-15px);
+}
+
+.cute_navbar ul li#cute_navbar_active a span{
+    opacity: 0.8;
+    transition: 0.8s;
+    font-weight: 500;
+    transform: translateY(-10px);
+}
+
+.cute_navbar_indicator {
+    position: absolute;
+    top: 5px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--indicator-color);
+    left: calc((var(--i) * 70px) - 3px);
+    border: 5px solid var(--background-color);
+    transition: 0.7s;
+}
+
+.cute_navbar_indicator::before{
+    content: '';
+    position: absolute;
+    top: 54.55%;
+    left: -20px;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-top-right-radius: 20px;
+    box-shadow: 0 -10px 0 0 var(--background-color);
+}
+
+.cute_navbar_indicator::after{
+    content: '';
+    position: absolute;
+    top: 54.55%;
+    right: -20px;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-top-left-radius: 20px;
+    box-shadow: 0 -10px 0 0 var(--background-color);
+}
+
+.cute_navbar_selected{
+    transform: translate(0px, -30px);
+}

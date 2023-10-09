@@ -8,7 +8,7 @@ function Looopia() {
     colorOne: "#3498db",
     colorTwo: "#0f2231",
     colorThree: "#b16a47",
-    rotation_speed: 0.4,
+    rotation_speed: 0.2,
   };
 
   let [state, setState] = useState(initialState);
@@ -68,9 +68,8 @@ function Looopia() {
           <button
             name="flipInside"
             onClick={toggleFlip}
-            className="flipButtontoggle"
-            value={!state.flipInside}
-            style={{ minWidth: "90px", color: flipInside ? "green" : "red" }}
+            className={`flipButtonToggle${flipInside}`}
+            value={flipInside}
           >
             {flipInside ? "True" : "False"}
           </button>

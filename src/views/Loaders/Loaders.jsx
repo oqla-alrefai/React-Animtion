@@ -8,10 +8,12 @@ import {
 function Loaders() {
   return (
     <>
-      {/* <SpectrumLoader /> */}
-      <LooopiaLoader />
-      <JumpSlider />
-      <StairLoader />
+      <section className="all_loaders_container">
+        <SpectrumLoader className='test' />
+        <LooopiaLoader />
+        <JumpSlider />
+        <StairLoader />
+      </section>
     </>
   );
 }

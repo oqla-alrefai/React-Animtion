@@ -1,8 +1,9 @@
-import { CuteNavbar } from "../../Components";
+import { CuteNavbar, NavDrawer } from "../../Components";
 function ReactComponents() {
   return (
     <>
-      <CuteNavbar />
+      {/* <CuteNavbar /> */}
+      <NavDrawer />
     </>
   );
 }

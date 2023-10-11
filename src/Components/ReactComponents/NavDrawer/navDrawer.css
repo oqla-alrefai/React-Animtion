@@ -1,6 +1,6 @@
 :root {
-    --background-color: #6A42D3;
-    --indicator-color: #F5F4F6;
+    --nav-drawer-background-color: #6A42D3;
+    --nav-drawer-indicator-color: #F5F4F6;
 }
 
 .nav_drawer_container {
@@ -9,7 +9,7 @@
     align-items: center;
     min-width: 500px;
     min-height: 500px;
-    background-color: var(--background-color);
+    background-color: var(--nav-drawer-background-color);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -17,7 +17,7 @@
     position: relative;
     width: var(--nav_drawer_width);
     height: 350px;
-    background-color: var(--indicator-color);
+    background-color: var(--nav-drawer-indicator-color);
     border-radius: 10px;
     transition: 0.5s;
 }
@@ -54,7 +54,7 @@
 .nav_drawer ul li a {
     position: relative;
     text-decoration: none;
-    color: var(--background-color);
+    color: var(--nav-drawer-background-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +65,7 @@
 
 .nav_drawer ul li a .nav_drawer_icons {
     font-size: 1.3em;
-    color: var(--background-color);
+    color: var(--nav-drawer-background-color);
     margin-right: 1.4em;
     padding: 0 0 0 1.5em;
 }
@@ -85,8 +85,8 @@
     align-items: center;
     width: 25px;
     height: 25px;
-    background-color: var(--indicator-color);
-    border: 3px solid var(--background-color);
+    background-color: var(--nav-drawer-indicator-color);
+    border: 3px solid var(--nav-drawer-background-color);
     border-radius: 50%;
     transition: 0.5s;
     cursor: pointer;
@@ -94,7 +94,7 @@
 
 .nav_drawer_indicator i{
     font-size: 1.7em;
-    color: var(--background-color);
+    color: var(--nav-drawer-background-color);
 }
 
 .apin_drwa_buttontrue{transform: rotate(0deg);}

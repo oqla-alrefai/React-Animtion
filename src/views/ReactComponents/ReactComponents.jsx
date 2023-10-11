@@ -1,9 +1,10 @@
-import { CuteNavbar, NavDrawer } from "../../Components";
+import { CuteNavbar, NavDrawer, TooltipsNavbar } from "../../Components";
 function ReactComponents() {
   return (
     <>
-      {/* <CuteNavbar /> */}
+      <CuteNavbar />
       <NavDrawer />
+      <TooltipsNavbar />
     </>
   );
 }

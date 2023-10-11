@@ -1,9 +1,13 @@
+// Loaders exports
 export { default as SpectrumLoader } from './Loaders/Spectrum_Loader/Spectrum.jsx';
 export { default as LooopiaLoader } from './Loaders/Looopia/Looopia.jsx';
 export { default as JumpSlider } from './Loaders/JumpSlider/JumpSlider.jsx';
 export { default as StairLoader } from './Loaders/StairsLoader/StairLoader.jsx';
 
+// Movements exports
 export { default as ButtonSwap } from './Movements/ButtonSwap/ButtonSwap.jsx';
 
+// React Components exports
 export { default as CuteNavbar } from './ReactComponents/CuteNavbar/CuteNavbar.jsx';
 export { default as NavDrawer } from './ReactComponents/NavDrawer/NavDrawer.jsx';
+export { default as TooltipsNavbar } from './ReactComponents/TooltipsNavbar/TooltipsNavbar.jsx';

@@ -33,7 +33,7 @@ function NavDrawer() {
     },
   ];
 
-  let [toggleDrawer, setToggleDrawer] = useState(true);
+  let [toggleDrawer, setToggleDrawer] = useState(false);
 
   return (
     <>

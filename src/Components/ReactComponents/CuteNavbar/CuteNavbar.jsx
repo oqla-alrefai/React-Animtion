@@ -59,7 +59,7 @@ function CuteNavbar() {
                   key={index}
                   onClick={() => handleClick(index)}
                 >
-                  <a href="#">
+                  <a>
                     <element.icon className="cute_navbar_icon" />
                     <span>{element.category}</span>
                   </a>

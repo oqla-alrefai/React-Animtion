@@ -36,6 +36,7 @@
     list-style: none;
     width: 70px;
     z-index: 1;
+    cursor: pointer;
 }
 
 .cute_navbar ul li#cute_navbar_active a .cute_navbar_icon{

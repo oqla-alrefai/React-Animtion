@@ -1,0 +1,107 @@
+:root {
+    --tooltips-nav-background-color: #FFD00A;
+    --tooltips-nav-indicator-color: #0175FD;
+    --tooltips-nav-color: #F5F4F6;
+}
+
+.tooltips_navbar_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    min-height: 500px;
+    background-color: var(--tooltips-nav-background-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.tooltips_navbar {
+    position: relative;
+    width: 80px;
+    height: 350px;
+    background-color: var(--tooltips-nav-color);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.tooltips_navbar ul {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tooltips_navbar ul li {
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.tooltips_navbar ul li a {
+    position: relative;
+    text-decoration: none;
+    color: var(--tooltips-nav-indicator-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.tooltips_navbar ul li a .tooltips_navbar_icons {
+    width: 100%;
+    height: 100%;
+    font-size: 1.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.tooltips_navbar ul li a:hover .tooltips_navbar_icons {
+    color: var(--tooltips-nav-color);
+    background-color: var(--tooltips-nav-indicator-color);
+}
+
+.tooltips_navbar ul li a .tooltips_navbar_text {
+    position: absolute;
+    left: 90px;
+    background-color: var(--tooltips-nav-color);
+    padding: 4px 6px;
+    border-radius: 5px;
+    z-index: -1;
+    opacity: 0;
+    transition: 0.6s;
+    transform: translateX(-5px);
+}
+
+.tooltips_navbar ul li a:hover .tooltips_navbar_text {
+    z-index: 1;
+    opacity: 1;
+    transform: translateX(5px);
+}
+
+.tooltips_navbar ul li a .tooltips_navbar_text::before {
+    content: '';
+    width: 9px;
+    height: 9px;
+    background-color: #F5F4F6;
+    position: absolute;
+    left: -4px;
+    top: 12px;
+    transform: rotate(45deg);
+}

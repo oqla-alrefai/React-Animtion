@@ -14,6 +14,8 @@ Welcome to the React Animation Library, a collection of stylish and customizable
 
 - **Customizable Styles:** Easily customize the styles to match your branding and design preferences.
 
+- **Customization Forms**: We understand that every project has unique requirements. To facilitate easy customization, we provide forms below each component on our demo page that allow you to modify the component's properties and see the changes in real-time.
+
 ## Usage
 
 Still working on this . . . 

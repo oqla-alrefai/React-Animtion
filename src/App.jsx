@@ -4,8 +4,8 @@ import { Loaders, Movements, ReactComponents } from "./views";
 function App() {
   return (
     <>
-      <Loaders />
-      <Movements />
+      {/* <Loaders />
+      <Movements /> */}
       <ReactComponents />
     </>
   );

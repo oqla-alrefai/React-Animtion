@@ -1,10 +1,17 @@
-import { CuteNavbar, NavDrawer, TooltipsNavbar } from "../../Components";
+import {
+  CuteNavbar,
+  NavDrawer,
+  TooltipsNavbar,
+  ProfileDropDown,
+} from "../../Components";
+
 function ReactComponents() {
   return (
     <>
-      <CuteNavbar />
+      {/* <CuteNavbar />
       <NavDrawer />
-      <TooltipsNavbar />
+      <TooltipsNavbar /> */}
+      <ProfileDropDown />
     </>
   );
 }

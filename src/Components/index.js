@@ -11,3 +11,4 @@ export { default as ButtonSwap } from './Movements/ButtonSwap/ButtonSwap.jsx';
 export { default as CuteNavbar } from './ReactComponents/CuteNavbar/CuteNavbar.jsx';
 export { default as NavDrawer } from './ReactComponents/NavDrawer/NavDrawer.jsx';
 export { default as TooltipsNavbar } from './ReactComponents/TooltipsNavbar/TooltipsNavbar.jsx';
+export { default as ProfileDropDown } from './ReactComponents/ProfileDropDown/ProfileDropDown.jsx';

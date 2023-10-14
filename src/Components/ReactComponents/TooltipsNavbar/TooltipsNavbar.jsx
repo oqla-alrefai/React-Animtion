@@ -36,7 +36,7 @@ function TooltipsNavbar() {
                     <span className="tooltips_navbar_icons">
                       {element.icon}
                     </span>
-                    <span className="tooltips_navbar_text disabled-hover">
+                    <span className="tooltips_navbar_text">
                       {element.category}
                     </span>
                   </a>

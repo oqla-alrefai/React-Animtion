@@ -3,6 +3,7 @@ import {
   NavDrawer,
   TooltipsNavbar,
   ProfileDropDown,
+  PepsiCard,
 } from "../../Components";
 
 function ReactComponents() {
@@ -10,8 +11,9 @@ function ReactComponents() {
     <>
       {/* <CuteNavbar />
       <NavDrawer />
-      <TooltipsNavbar /> */}
-      <ProfileDropDown />
+      <TooltipsNavbar />
+      <ProfileDropDown /> */}
+      <PepsiCard />
     </>
   );
 }

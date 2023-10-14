@@ -1,0 +1,127 @@
+:root {
+    --Pepsi_background_color_one: #D83035;
+    --Pepsi_background_color_two: #0564C1;
+    --text_color: #fff;
+    --button_text_color: #000;
+}
+
+.pepsi_card_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    min-height: 500px;
+    background-color: var(--profile_dropdown_background-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.pepsi_card {
+    position: relative;
+    width: 210px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--Pepsi_background_color_one);
+    transition: 0.5s;
+}
+
+.pepsi_card:hover {
+    width: 450px;
+    height: 260px;
+    border-radius: 20px;
+    background-color: var(--Pepsi_background_color_two);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.pepsi_card .pepsi_text {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 170px;
+    height: 220px;
+    position: absolute;
+    right: 30px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.pepsi_card:hover .pepsi_text {
+    opacity: 1;
+    right: 240px;
+    transition-delay: 0.2s;
+}
+
+.pepsi_card .pepsi_text h2 {
+    font-size: 1.1em;
+    padding: 0 0 0.2em 0;
+    margin: 0;
+    color: var(--text_color);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pepsi_card .pepsi_text p {
+    font-size: 1em;
+    color: var(--text_color);
+    white-space: 0;
+    line-height: 1.3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: start;
+    padding: 0;
+    margin: 0 0 0.3em 0;
+}
+
+.pepsi_card .pepsi_text button {
+    width: 80px;
+    height: 30px;
+    font-size: 0.7em;
+    padding: 0;
+    color: var(--button_text_color);
+}
+
+.pepsi_card img {
+    position: absolute;
+    bottom: -30px;
+    right: 30px;
+    width: 150px;
+    height: 280px;
+    transition: 0.5s;
+}
+
+.pepsi_card:hover img {
+    bottom: -40px;
+    right: 40px;
+    width: 180px;
+    height: 330px;
+}
+
+/* sm */
+@media (max-width: 600px) {
+    .pepsi_card:hover {
+        width: 250px;
+        height: 500px;
+    }
+
+    .pepsi_card:hover img {
+        bottom: 20px;
+        right: 60px;
+        width: 140px;
+        height: 280px;
+    }
+
+    .pepsi_card .pepsi_text {
+        bottom: 30px;
+    }
+
+    .pepsi_card:hover .pepsi_text {
+        opacity: 1;
+        bottom: 290px;
+        right: 30px;
+        transition-delay: 0.2s;
+    }
+}

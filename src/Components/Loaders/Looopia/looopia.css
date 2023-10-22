@@ -12,6 +12,7 @@
     min-width: 500px;
     min-height: 500px;
     background: var(--loopia_background_color);
+    border-radius: 50%;
 }
 
 .looopiaSection .loopia_loader {

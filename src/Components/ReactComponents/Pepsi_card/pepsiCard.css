@@ -60,7 +60,7 @@
 .pepsi_card .pepsi_text h2 {
     font-size: 1.1em;
     padding: 0 0 0.2em 0;
-    margin: 0;
+    margin: 0; 
     color: var(--text_color);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -79,9 +79,22 @@
 .pepsi_card .pepsi_text button {
     width: 80px;
     height: 30px;
-    font-size: 0.7em;
+    font-size: 0.8em;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     padding: 0;
     color: var(--button_text_color);
+    background-color: var(--text_color);
+    transition: 0.5s;
+}
+
+.pepsi_card .pepsi_text button:hover {
+    background-color: var(--Pepsi_background_color_two);
+    color: var(--Pepsi_background_color_one);
+    transform: translateY(-3px);
+    border: 1px solid var(--Pepsi_background_color_one);
 }
 
 .pepsi_card img {

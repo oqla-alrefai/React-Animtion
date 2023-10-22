@@ -134,7 +134,8 @@
 }
 
 .profile_dropdown_icons{
-    color: var(--text_color);
+    color: black;
+    opacity: 0.65;
     opacity: 0.6;
     font-size: 1.1em;
     transition: 0.5s;
@@ -146,11 +147,12 @@
 }
 
 .profile_dropdown_text{
-    color: var(--text_color);
+    color: black;
     font-size: 0.9em;
     margin: 0 0 0 0.7em;
     font-family: a;
     transition: 0.5s;
+    opacity: 0.65;
 }
 .profile_dropdown_list nav li a:hover .profile_dropdown_text{
     color: #bd3458;

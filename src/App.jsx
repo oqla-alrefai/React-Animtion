@@ -4,9 +4,15 @@ import { Loaders, Movements, ReactComponents } from "./views";
 function App() {
   return (
     <>
-      {/* <Loaders />
-      <Movements /> */}
-      <ReactComponents />
+      <div className="loaders_container">
+        <Loaders />
+      </div>
+      <div className="loaders_container">
+        <Movements />
+      </div>
+      <div className="loaders_container">
+        <ReactComponents />
+      </div>
     </>
   );
 }

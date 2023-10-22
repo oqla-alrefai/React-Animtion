@@ -4,16 +4,15 @@ import {
   JumpSlider,
   StairLoader,
 } from "../../Components";
+import "./allLoaders.css";
 
 function Loaders() {
   return (
     <>
-      <section className="all_loaders_container">
-        <SpectrumLoader className='test' />
-        <LooopiaLoader />
-        <JumpSlider />
-        <StairLoader />
-      </section>
+      <SpectrumLoader />
+      <LooopiaLoader />
+      <JumpSlider />
+      <StairLoader />
     </>
   );
 }

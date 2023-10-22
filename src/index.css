@@ -16,7 +16,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #000;
   text-decoration: inherit;
 }
 
@@ -31,11 +31,18 @@ body {
   min-width: 320px;
   min-height: 100vh;
   overflow-y: scroll;
+  background-color: #e2e2e2;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: #000;
+}
+
+span,
+p label {
+  color: #000;
 }
 
 button {

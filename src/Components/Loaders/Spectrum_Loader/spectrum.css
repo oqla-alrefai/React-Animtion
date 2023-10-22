@@ -13,6 +13,7 @@
     min-height: 500px;
     background: var(--background_color);
     animation: animateBg calc(1s * var(--glowing_duration)) linear infinite;
+    border-radius: 50%;
 }
 
 @keyframes animateBg {

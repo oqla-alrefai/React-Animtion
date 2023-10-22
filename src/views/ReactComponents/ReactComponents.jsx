@@ -4,16 +4,18 @@ import {
   TooltipsNavbar,
   ProfileDropDown,
   PepsiCard,
+  ListMenu,
 } from "../../Components";
 
 function ReactComponents() {
   return (
     <>
-      {/* <CuteNavbar />
+      <CuteNavbar />
       <NavDrawer />
       <TooltipsNavbar />
-      <ProfileDropDown /> */}
+      <ProfileDropDown />
       <PepsiCard />
+      {/* <ListMenu /> Needs fix */}
     </>
   );
 }

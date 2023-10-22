@@ -13,11 +13,24 @@
   color: #888;
 }
 
-.resetButton{
+.resetButton {
   background-color: #3498db;
   color: #fff;
 }
 
-section{
+section {
   margin: 10px;
+}
+
+.loaders_container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.loaders_container > *{
+  border-radius: 5%;
 }

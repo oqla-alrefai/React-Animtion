@@ -13,6 +13,7 @@ function App() {
       <div className="loaders_container">
         <ReactComponents />
       </div>
+      <span>More is Coming . . .</span>
     </>
   );
 }

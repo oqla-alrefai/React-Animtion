@@ -1,8 +1,9 @@
 # React Animation Library
 
-![React Animation Library Logo](link-to-your-logo.png)
 
 Welcome to the React Animation Library, a collection of stylish and customizable CSS3 animations and React components to enhance the visual appeal of your web applications. Whether you're building a dynamic website or a sleek web app, this library provides a variety of animations, page loaders, and reusable React components to add a touch of elegance to your user interface.
+
+![React Animation Library Logo](/src/assets/System/Animation_logo.jpg)
 
 ## Features
 
@@ -16,6 +17,24 @@ Welcome to the React Animation Library, a collection of stylish and customizable
 
 - **Customization Forms**: We understand that every project has unique requirements. To facilitate easy customization, we provide forms below each component on our demo page that allow you to modify the component's properties and see the changes in real-time.
 
+
+## Live URL
+
+[react_animation_live_URL](https://react-animation-tahat.netlify.app/)
+
+
 ## Usage
 
-Still working on this . . . 
+1.  Clone the repository:
+
+    ```bash
+    git clone git@github.com:KZTahat/react_animation.git
+    ```
+
+2.  Install dependencies:
+
+        npm install
+
+3.  Run the application:
+
+        npm start

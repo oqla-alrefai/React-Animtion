@@ -14,3 +14,4 @@ export { default as TooltipsNavbar } from './ReactComponents/TooltipsNavbar/Tool
 export { default as ProfileDropDown } from './ReactComponents/ProfileDropDown/ProfileDropDown.jsx';
 export { default as PepsiCard } from './ReactComponents/Pepsi_card/PepsiCard.jsx';
 export { default as ListMenu } from './ReactComponents/ListMenu/ListMenu.jsx';
+export { default as FullWidthNav } from './ReactComponents/full_width_nav/fullWidthNav.jsx';

@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   line-height: 1.5;
   font-weight: 400;
 
@@ -24,6 +24,13 @@ a:hover {
   color: #535bf2;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Playpen Sans', cursive;
+  
+}
+
 body {
   margin: 0;
   display: flex;
@@ -31,7 +38,8 @@ body {
   min-width: 320px;
   min-height: 100vh;
   overflow-y: scroll;
-  background-color: #e2e2e2;
+  background-color: #646464;
+  font-family: 'Playpen Sans', cursive;
 }
 
 h1 {

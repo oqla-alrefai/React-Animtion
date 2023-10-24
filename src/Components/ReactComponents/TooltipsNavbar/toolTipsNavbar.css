@@ -8,10 +8,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 500px;
-    min-height: 500px;
+    min-width: 300px;
+    min-height: 450px;
     background-color: var(--tooltips-nav-background-color);
     font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
 }
 
 .tooltips_navbar {
@@ -59,6 +60,7 @@
     border-radius: 10px;
     width: 100%;
     height: 100%;
+    cursor: pointer;
 }
 
 .tooltips_navbar ul li a .tooltips_navbar_icons {

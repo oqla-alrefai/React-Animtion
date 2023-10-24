@@ -50,7 +50,7 @@ function NavDrawer() {
                   key={index}
                   onClick={() => handleClick(index)}
                 >
-                  <a href="#">
+                  <a>
                     <span className="nav_drawer_icons">{element.icon}</span>
                     <span className="nav_drawer_text">{element.category}</span>
                   </a>

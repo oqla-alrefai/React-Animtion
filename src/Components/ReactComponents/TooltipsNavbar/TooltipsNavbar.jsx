@@ -32,7 +32,7 @@ function TooltipsNavbar() {
             {iconsArray.map((element, index) => {
               return (
                 <li className="tooltips_navbar_selected" key={index}>
-                  <a href="#">
+                  <a>
                     <span className="tooltips_navbar_icons">
                       {element.icon}
                     </span>

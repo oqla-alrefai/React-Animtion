@@ -30,7 +30,3 @@ section {
   gap: 2em;
   flex-wrap: wrap;
 }
-
-.loaders_container > *{
-  border-radius: 5%;
-}

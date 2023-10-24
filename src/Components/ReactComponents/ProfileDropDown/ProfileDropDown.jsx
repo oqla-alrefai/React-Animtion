@@ -44,7 +44,7 @@ function ProfileDropDown() {
                 {iconsArray.map((element, index) => {
                   return (
                     <li key={index}>
-                      <a href="#">
+                      <a>
                         <span className="profile_dropdown_icons">
                           {element.icon}
                         </span>

@@ -24,7 +24,6 @@ function FullWidthNav() {
     },
   ];
 
-  
   useEffect(() => {
     return () => {
       let listItems = document.getElementsByClassName("full_width_list_text");
@@ -52,17 +51,14 @@ function FullWidthNav() {
             {listItems.map((element, index) => {
               return (
                 <li onClick={() => handleClick(index)} key={index}>
-                  <a
-                    className="full_width_list_text"
-                  >
-                    {element.name}
-                  </a>
+                  <a className="full_width_list_text">{element.name}</a>
                 </li>
               );
             })}
             <div className="full_width_nav_indicator" />
           </ul>
         </nav>
+        <span className="full_width_nav_title">Fully Responsive Full Width Navbar</span>
       </section>
     </>
   );

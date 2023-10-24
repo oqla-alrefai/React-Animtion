@@ -2,27 +2,36 @@
     --full_width_nav_background-color: #2388e0;
     --full_width_background-color: #2E3540;
     --full_width_nav_textColor: #FEFDFF;
+    --full_width: 1000;
+    --full_width_padding: 0;
+    --full_width_indicator: calc(((var(--full_width) - (var(--full_width_padding) * 2)) * 0.60) / 6);
 }
 
 .full_width_nav_container {
     display: flex;
     justify-content: start;
-    align-items: start;
-    min-width: 1000px;
+    align-items: center;
+    flex-direction: column;
+    min-width: calc(1px * var(--full_width));
     min-height: 200px;
     background-color: var(--full_width_background-color);
     font-family: 'Poppins', sans-serif;
     border-radius: 20px;
 }
 
+.full_width_nav_container .full_width_nav_title {
+    color: #FEFDFF;
+    margin: 3em;
+}
+
 .full_width_nav_container .full_width_nav {
     width: 100%;
     height: 4em;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    padding: 0 4em 0 4em;
+    padding: 0 calc(1px * var(--full_width_padding));
     background-color: var(--full_width_nav_background-color);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -48,19 +57,15 @@
     padding: 0;
     margin: 0;
     z-index: auto;
-    /* border: 1px solid red; */
 }
 
 .full_width_nav ul li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     list-style: none;
     width: 100%;
     height: 100%;
     z-index: 3;
 
-    /* border: 1px solid blue; */
 }
 
 .full_width_nav ul li a {
@@ -70,6 +75,15 @@
     text-align: center;
     cursor: pointer;
     transition: 1s;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full_width_nav ul li a:hover {
+    transform: translateY(-3px);
 }
 
 .full_width_nav #full_width_nav_active {
@@ -78,9 +92,9 @@
 
 .full_width_nav_indicator {
     position: absolute;
-    left: calc(87.2px * var(--full_width_index));
+    left: calc(1px * var(--full_width_indicator) * var(--full_width_index));
     bottom: 0;
-    width: 87.2px;
+    width: calc(1px * var(--full_width_indicator));
     height: 85%;
     background-color: var(--full_width_background-color);
     border-top-right-radius: 25px;

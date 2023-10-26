@@ -5,7 +5,8 @@ import {
   ProfileDropDown,
   PepsiCard,
   ListMenu,
-  FullWidthNav
+  FullWidthNav,
+  CardStyle_1,
 } from "../../Components";
 
 function ReactComponents() {
@@ -18,6 +19,7 @@ function ReactComponents() {
       <PepsiCard />
       {/* <ListMenu /> Needs fix */}
       <FullWidthNav />
+      <CardStyle_1 />
     </>
   );
 }

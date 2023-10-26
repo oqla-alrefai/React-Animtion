@@ -15,3 +15,6 @@ export { default as ProfileDropDown } from './ReactComponents/ProfileDropDown/Pr
 export { default as PepsiCard } from './ReactComponents/Pepsi_card/PepsiCard.jsx';
 export { default as ListMenu } from './ReactComponents/ListMenu/ListMenu.jsx';
 export { default as FullWidthNav } from './ReactComponents/full_width_nav/fullWidthNav.jsx';
+
+// Cards 
+export { default as CardStyle_1 } from './ReactComponents/Cards';

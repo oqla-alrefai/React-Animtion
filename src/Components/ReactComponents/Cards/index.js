@@ -1,0 +1,1 @@
+export { default } from './Card_style_1/CardStyle_1.jsx';

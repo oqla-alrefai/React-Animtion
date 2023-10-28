@@ -1,16 +1,18 @@
 :root {
-    --card_style_one_background_color: #cbcbcb;
+    --card_style_one_background_color: #efefef;
 }
 
 .card_style_1_container {
+    position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-direction: column;
     width: 100%;
-    min-height: 700px;
+    height: 550px;
     background-color: var(--card_style_one_background_color);
     border-radius: 20px;
+    margin-bottom: 6em;
 }
 
 .card_style_1_container h2 {
@@ -19,12 +21,14 @@
 }
 
 .card_style_1 {
-    position: relative;
+    position: absolute;bottom: -4em;
     display: flex;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     width: 90%;
-    min-height: 400px;
     gap: 1.6em;
+    background-color: #c1c1c1ef;
+    padding: 25px;
+    border-radius: 25px;
 }

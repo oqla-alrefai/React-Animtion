@@ -1,4 +1,6 @@
 import "./App.css";
+import 'swiper/css/bundle';
+
 import { Loaders, Movements, ReactComponents } from "./views";
 
 function App() {

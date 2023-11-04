@@ -7,6 +7,7 @@ import {
   ListMenu,
   FullWidthNav,
   CardStyle_1,
+  SlideShow,
 } from "../../Components";
 
 function ReactComponents() {
@@ -20,6 +21,7 @@ function ReactComponents() {
       {/* <ListMenu /> Needs fix */}
       <FullWidthNav />
       <CardStyle_1 />
+      <SlideShow />
     </>
   );
 }

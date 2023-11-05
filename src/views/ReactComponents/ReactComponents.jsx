@@ -8,6 +8,7 @@ import {
   FullWidthNav,
   CardStyle_1,
   SlideShow,
+  Accordion
 } from "../../Components";
 
 function ReactComponents() {
@@ -22,6 +23,7 @@ function ReactComponents() {
       <FullWidthNav />
       <CardStyle_1 />
       <SlideShow />
+      <Accordion />
     </>
   );
 }

@@ -16,6 +16,7 @@ export { default as PepsiCard } from './ReactComponents/Pepsi_card/PepsiCard.jsx
 export { default as ListMenu } from './ReactComponents/ListMenu/ListMenu.jsx';
 export { default as FullWidthNav } from './ReactComponents/full_width_nav/fullWidthNav.jsx';
 export { default as SlideShow } from './ReactComponents/SlideShow/SlideShow.jsx';
+export { default as Accordion } from './ReactComponents/Accordion/Accordion.jsx';
 
 // Cards 
 export { default as CardStyle_1 } from './ReactComponents/Cards';

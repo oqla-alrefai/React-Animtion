@@ -7,7 +7,7 @@ import yellow_shirt from "../../../assets/product_card/yellow_shirt.png";
 import { useState } from "react";
 
 function MenShirtCard() {
-  let [selectedColor, setSelectedColor] = useState(2);
+  let [selectedColor, setSelectedColor] = useState(0);
   let shirtImages = [
     { image: red_shirt, name: "red shirt", color: "red" },
     { image: black_shirt, name: "black shirt", color: "black" },
@@ -61,9 +61,6 @@ function MenShirtCard() {
               id={selectedColor == idx ? "selectedImage" : ""}
             />
           ))}
-          <img src={yellow_shirt} alt="red shirt" />
-          <img src={black_shirt} alt="red shirt" />
-          <img src={blue_shirt} alt="red shirt" />
         </div>
       </div>
     </section>

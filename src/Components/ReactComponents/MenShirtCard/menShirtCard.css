@@ -189,6 +189,7 @@
     height: 40px;
     margin: 0;
     transition: 0.5s;
+    outline: none;
 }
 
 .men_shirt_cart:hover {

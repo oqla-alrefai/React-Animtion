@@ -50,6 +50,7 @@ function CuteNavbar() {
   return (
     <>
       <section className="cute_navbar_container" style={{ "--i": prevIndicator }}>
+        <h2>Cute NavBar</h2>
         <div className="cute_navbar">
           <ul>
             {iconsArray.map((element, index) => {

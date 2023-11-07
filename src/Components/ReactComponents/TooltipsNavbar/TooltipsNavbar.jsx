@@ -27,6 +27,7 @@ function TooltipsNavbar() {
   return (
     <>
       <section className="tooltips_navbar_container">
+        <h2>Tool Tips Nav</h2>
         <nav className="tooltips_navbar">
           <ul>
             {iconsArray.map((element, index) => {

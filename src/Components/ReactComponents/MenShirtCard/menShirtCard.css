@@ -1,0 +1,196 @@
+:root {
+    --men_shirt_background_color: #FF6867;
+    --closet_background_color: #2a292a;
+    --text_button_color: #e23333;
+}
+
+.men_shirt_container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    min-width: 650px;
+    min-height: 600px;
+    background-color: var(--men_shirt_background_color);
+    border-radius: 25px;
+}
+
+.men_shirt_container h2 {
+    margin: 2em 0 1em 0;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.men_shirt {
+    width: 500px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+
+.men_shirt_content {
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    padding: 3em 0 0 2em;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.men_shirt_images {
+    width: 46%;
+    height: 90%;
+    position: absolute;
+    right: 0;
+    background-color: var(--closet_background_color);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.men_shirt_images img {
+    width: 120%;
+    height: 97%;
+    position: absolute;
+    top: -7px;
+    left: -100%;
+    transition: 1s;
+    transform-origin: top center;
+    opacity: 0;
+    z-index: -1;
+}
+
+#selectedImage {
+    left: 10px;
+    animation: swing 4s ease;
+    opacity: 1;
+    z-index: 1;
+}
+
+@keyframes swing {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(4deg);
+    }
+
+    75% {
+        transform: rotate(-4deg);
+    }
+}
+
+.men_shirt_content h3 {
+    font-size: 1.5em;
+    color: var(--closet_background_color);
+}
+
+.men_shirt_content .men_shirt_price {
+    margin: 1em 0;
+}
+
+.men_shirt_price .men_shirt_currency {
+    color: var(--text_button_color);
+    font-size: 1.1em;
+    margin-right: 0.4em;
+}
+
+.men_shirt_price .men_shirt_amount {
+    font-size: 2.2em;
+    color: var(--text_button_color);
+}
+
+.men_shirt_color {
+    text-align: start;
+    width: 100%;
+    height: 80px;
+}
+
+.men_shirt_color div {
+    color: var(--closet_background_color);
+    font-weight: 600;
+    font-size: 0.9em;
+    margin: 0.3em 0;
+}
+
+.men_shirt_color .men_shirt_color_button {
+    box-sizing: border-box;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    margin: 0 0.1em;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+    transition: 1s;
+    outline: none;
+    box-shadow: 0px 4px 10px #c9b2b2;
+}
+
+.men_shirt_color .men_shirt_color_button:hover {
+    border-color: #bebebe;
+}
+
+.men_shirt_color #selectedColorButton {
+    border-color: #7a6e6e;
+    scale: 0.95;
+}
+
+.men_shirt_color .men_shirt_color_button img {
+    width: 23px;
+    height: 30px;
+}
+
+.men_shirt_size {
+    text-align: start;
+    width: 100%;
+    height: 80px;
+}
+
+.men_shirt_size div {
+    color: var(--closet_background_color);
+    font-weight: 600;
+    font-size: 0.9em;
+    margin: 0.3em 0;
+}
+
+.men_shirt_size .men_shirt_size_button {
+    box-sizing: border-box;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    color: var(--closet_background_color);
+    transition: 1s;
+    outline: none;
+    box-shadow: 0px 4px 10px #c9b2b2;
+
+}
+
+.men_shirt_size .men_shirt_size_button:hover {
+    border-color: #adadad;
+}
+
+.men_shirt_cart {
+    border: none;
+    background-color: var(--text_button_color);
+    box-shadow: 0px 4px 10px #7a6e6e;
+    font-weight: 600;
+    font-size: 0.8em;
+    box-sizing: border-box;
+    width: 160px;
+    height: 40px;
+    margin: 0;
+    transition: 0.5s;
+}
+
+.men_shirt_cart:hover {
+    transform: translateY(-1px);
+}

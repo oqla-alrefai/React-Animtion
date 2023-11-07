@@ -8,22 +8,24 @@ import {
   FullWidthNav,
   CardStyle_1,
   SlideShow,
-  Accordion
+  Accordion,
+  MenShirtCard
 } from "../../Components";
 
 function ReactComponents() {
   return (
     <>
-      <CuteNavbar />
+      {/* <CuteNavbar />
       <NavDrawer />
       <TooltipsNavbar />
       <ProfileDropDown />
       <PepsiCard />
-      {/* <ListMenu /> Needs fix */}
+      <ListMenu /> Needs fix
       <FullWidthNav />
       <CardStyle_1 />
       <SlideShow />
-      <Accordion />
+      <Accordion /> */}
+      <MenShirtCard />
     </>
   );
 }

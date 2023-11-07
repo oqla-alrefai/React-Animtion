@@ -41,6 +41,7 @@ function NavDrawer() {
         className="nav_drawer_container"
         style={{ "--nav_drawer_width": toggleDrawer ? "250px" : "80px" }}
       >
+        <h2>Nav Drawer</h2>
         <div className="nav_drawer">
           <ul>
             {iconsArray.map((element, index) => {

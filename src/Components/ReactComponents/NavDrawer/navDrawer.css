@@ -5,13 +5,21 @@
 
 .nav_drawer_container {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    flex-direction: column;
     min-width: 300px;
     min-height: 450px;
+    height: fit-content;
     background-color: var(--nav-drawer-background-color);
     border-radius: 20px;
 
+}
+
+.nav_drawer_container h2 {
+    margin: 1em;
+    font-size: 1.5em;
+    color: #fff;
 }
 
 .nav_drawer {

@@ -6,13 +6,23 @@
 
 .profile_dropdown_container {
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
     min-width: 300px;
-    min-height: 450px;
+    min-height: 470px;
+    height: fit-content;
     background-color: var(--profile_dropdown_background-color);
     font-family: 'Poppins', sans-serif;
     border-radius: 20px;
 }
+
+.profile_dropdown_container h2 {
+    margin: 0.5em 0 0 0;
+    font-size: 1.5em;
+    color: #fff;
+}
+
 
 .profile_dropdown {
     position: relative;

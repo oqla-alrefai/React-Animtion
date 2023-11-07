@@ -5,6 +5,7 @@ function PepsiCard() {
   return (
     <>
       <section className="pepsi_card_container">
+        <h2>Pepsi Hover Card</h2>
         <div className="pepsi_card">
           <div className="pepsi_text">
             <h2>PEPSI COLA</h2>

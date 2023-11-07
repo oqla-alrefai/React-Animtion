@@ -32,6 +32,7 @@ function ProfileDropDown() {
   return (
     <>
       <section className="profile_dropdown_container">
+        <h2>Profile Dropdown</h2>
         <div className="profile_dropdown">
           <img src={dummy_logo} alt="dummy_logo" />
           <div className="profile_dropdown_list">

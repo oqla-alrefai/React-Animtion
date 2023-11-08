@@ -9,23 +9,25 @@ import {
   CardStyle_1,
   SlideShow,
   Accordion,
-  MenShirtCard
+  MenShirtCard,
+  PricingDesign,
 } from "../../Components";
 
 function ReactComponents() {
   return (
     <>
       <CuteNavbar />
-      <NavDrawer />
-      <TooltipsNavbar />
+      <MenShirtCard />
       <ProfileDropDown />
+      <PricingDesign />
+      <TooltipsNavbar />
+      <NavDrawer />
       <PepsiCard />
       {/* <ListMenu /> Needs fix */}
       <FullWidthNav />
       <CardStyle_1 />
       <SlideShow />
       <Accordion />
-      <MenShirtCard />
     </>
   );
 }

@@ -18,6 +18,7 @@ export { default as FullWidthNav } from './ReactComponents/full_width_nav/fullWi
 export { default as SlideShow } from './ReactComponents/SlideShow/SlideShow.jsx';
 export { default as Accordion } from './ReactComponents/Accordion/Accordion.jsx';
 export { default as MenShirtCard } from './ReactComponents/MenShirtCard/MenShirtCard.jsx';
+export { default as PricingDesign } from './ReactComponents/PricingDesign/PricingDesign.jsx';
 
 // Cards 
 export { default as CardStyle_1 } from './ReactComponents/Cards';

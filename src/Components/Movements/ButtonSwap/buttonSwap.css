@@ -1,11 +1,17 @@
 .button_swap_container {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    flex-direction: column;
     min-width: 300px;
     min-height: 300px;
     background: #130b0c;
     border-radius: 20px;
+}
+.button_swap_container h2 {
+    margin: 1.5em 0 3em 0;
+    font-size: 1.5em;
+    color: #fff;
 }
 
 .button_track {

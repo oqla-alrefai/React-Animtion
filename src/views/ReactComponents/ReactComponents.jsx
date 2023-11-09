@@ -18,8 +18,8 @@ function ReactComponents() {
     <>
       <CuteNavbar />
       <MenShirtCard />
-      <ProfileDropDown />
       <PricingDesign />
+      <ProfileDropDown />
       <TooltipsNavbar />
       <NavDrawer />
       <PepsiCard />

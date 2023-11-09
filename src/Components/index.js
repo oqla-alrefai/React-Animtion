@@ -6,6 +6,7 @@ export { default as StairLoader } from './Loaders/StairsLoader/StairLoader.jsx';
 
 // Movements exports
 export { default as ButtonSwap } from './Movements/ButtonSwap/ButtonSwap.jsx';
+export { default as HummerHit } from './Movements/HummerHit/HummerHit.jsx';
 
 // React Components exports
 export { default as CuteNavbar } from './ReactComponents/CuteNavbar/CuteNavbar.jsx';

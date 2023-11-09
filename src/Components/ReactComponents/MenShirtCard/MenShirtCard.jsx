@@ -56,6 +56,7 @@ function MenShirtCard() {
         <div className="men_shirt_images">
           {shirtImages.map((element, idx) => (
             <img
+            key={idx}
               src={element.image}
               alt={element.name}
               id={selectedColor == idx ? "selectedImage" : ""}

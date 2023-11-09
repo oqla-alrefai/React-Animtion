@@ -1,0 +1,130 @@
+.covid_virus_container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    min-width: 700px;
+    min-height: 400px;
+    background: linear-gradient(to right, #9d3e3e, #3d2a2a, #9d3e3e);
+    border-radius: 25px;
+    box-sizing: border-box;
+    cursor: url('../../../assets/emojis/tool.png'), auto;
+}
+
+#covid_virus_container {
+    cursor: url('../../../assets/emojis/tool_hit.png'), auto;
+
+}
+
+.covid_virus_container h2 {
+    margin: 1em;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.covid_virus {
+    box-sizing: border-box;
+    padding: 0 2em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5em;
+}
+
+.covid_emoji_head {
+    position: relative;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #FFCC03;
+    padding-bottom: 2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    transition: all 0.5s;
+}
+
+.covid_emoji_head:hover {
+    background: linear-gradient(to bottom, red, yellow);
+    padding-bottom: 3em;
+}
+
+.covid_emoji_eyes {
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.covid_emoji_eyes .covid_emoji_eye {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.covid_emoji_eye .eye_black_point {
+    width: 20px;
+    height: 20px;
+    background-color: #413d3d;
+    border-radius: 50%;
+}
+
+.covid_emoji_mouth {
+    width: 95px;
+    height: 45px;
+    background-color: #B37304;
+    border-radius: 0 0 45px 45px;
+}
+
+.covid_emoji_head:hover .covid_emoji_mouth {
+    height: 10px;
+    border-radius: 0 0 0 0;
+    background-color: #970A00;
+
+    transition: 0.1s;
+}
+
+#hitFace .covid_emoji_mouth {
+    background-color: #970A00;
+    border-radius: 50%;
+    height: 50px;
+}
+
+#hitFace .covid_emoji_eye {
+    background-color: #413d3d;
+}
+
+#hitFace {
+    padding-bottom: 2em;
+    background: linear-gradient(to bottom, #5a015a, #ffff00);
+}
+
+#hitFace .covid_emoji_eye {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(0);
+}
+
+#hitFace .covid_emoji_eye::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    background-color: #970A00;
+}

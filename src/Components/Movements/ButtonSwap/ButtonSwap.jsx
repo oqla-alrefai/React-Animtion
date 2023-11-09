@@ -13,6 +13,7 @@ function ButtonSwap() {
   return (
     <>
       <section className="button_swap_container">
+        <h2>Switch Button</h2>
         <div className="button_track">
           <div className={`button_ball ${animation}`} onClick={handleClick}>
             <ArrowForwardIcon className="button_arrow"/>

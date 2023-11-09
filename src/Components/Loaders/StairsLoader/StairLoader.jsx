@@ -4,6 +4,7 @@ function StairLoader() {
   return (
     <>
       <section className="stairLoaderWorld">
+        <h2>Stairs Loader</h2>
         <div className="StairsContainer">
           <div className="stairColumn" style={{ "--i": 1 }}></div>
           <div className="stairColumn" style={{ "--i": 2 }}></div>

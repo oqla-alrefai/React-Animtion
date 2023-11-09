@@ -38,6 +38,7 @@ function SpectrumLoader() {
           }}
           className="spectrumSection"
         >
+          <h2>Spectrum Loader</h2>
           <div className="loader">
             {Array.from({ length: 20 }, (_, index) => {
               return <span key={index} style={{ "--i": index + 1 }}></span>;

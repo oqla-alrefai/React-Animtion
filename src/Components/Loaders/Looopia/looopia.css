@@ -7,12 +7,20 @@
 
 .looopiaSection {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    flex-direction: column;
     min-width: 300px;
     min-height: 300px;
     background: var(--loopia_background_color);
     border-radius: 20px;
+}
+
+.looopiaSection h2 {
+    margin: 1.5em 0 2em 0;
+    font-size: 1.5em;
+    color: #fff;
+
 }
 
 .looopiaSection .loopia_loader {
@@ -69,12 +77,12 @@
     }
 }
 
-.flipButtonToggletrue{
-min-width: 90px;
-color: green;
+.flipButtonToggletrue {
+    min-width: 90px;
+    color: green;
 }
 
-.flipButtonTogglefalse{
+.flipButtonTogglefalse {
     min-width: 90px;
     color: red;
 }

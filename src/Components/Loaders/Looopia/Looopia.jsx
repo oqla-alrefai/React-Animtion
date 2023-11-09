@@ -49,6 +49,7 @@ function Looopia() {
             "--rotation_speed": state.rotation_speed,
           }}
         >
+          <h2>Loopia Loader</h2>
           <section className="loopia_loader">
             {!flipInside ? (
               <div style={{ "--size": 8, "--i": 1 }}></div>

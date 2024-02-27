@@ -9,17 +9,18 @@ export { default as ButtonSwap } from './Movements/ButtonSwap/ButtonSwap.jsx';
 export { default as HummerHit } from './Movements/HummerHit/HummerHit.jsx';
 
 // React Components exports
-export { default as CuteNavbar } from './ReactComponents/CuteNavbar/CuteNavbar.jsx';
-export { default as NavDrawer } from './ReactComponents/NavDrawer/NavDrawer.jsx';
-export { default as TooltipsNavbar } from './ReactComponents/TooltipsNavbar/TooltipsNavbar.jsx';
-export { default as ProfileDropDown } from './ReactComponents/ProfileDropDown/ProfileDropDown.jsx';
-export { default as PepsiCard } from './ReactComponents/Pepsi_card/PepsiCard.jsx';
-export { default as ListMenu } from './ReactComponents/ListMenu/ListMenu.jsx';
-export { default as FullWidthNav } from './ReactComponents/full_width_nav/fullWidthNav.jsx';
-export { default as SlideShow } from './ReactComponents/SlideShow/SlideShow.jsx';
 export { default as Accordion } from './ReactComponents/Accordion/Accordion.jsx';
+export { default as CuteNavbar } from './ReactComponents/CuteNavbar/CuteNavbar.jsx';
+export { default as FullWidthNav } from './ReactComponents/full_width_nav/fullWidthNav.jsx';
+export { default as ListMenu } from './ReactComponents/ListMenu/ListMenu.jsx';
 export { default as MenShirtCard } from './ReactComponents/MenShirtCard/MenShirtCard.jsx';
+export { default as NavDrawer } from './ReactComponents/NavDrawer/NavDrawer.jsx';
+export { default as PepsiCard } from './ReactComponents/Pepsi_card/PepsiCard.jsx';
+export { default as PhoneVerification } from './ReactComponents/PhoneVerification/PhoneVerification.jsx';
 export { default as PricingDesign } from './ReactComponents/PricingDesign/PricingDesign.jsx';
+export { default as ProfileDropDown } from './ReactComponents/ProfileDropDown/ProfileDropDown.jsx';
+export { default as SlideShow } from './ReactComponents/SlideShow/SlideShow.jsx';
+export { default as TooltipsNavbar } from './ReactComponents/TooltipsNavbar/TooltipsNavbar.jsx';
 
 // Cards 
 export { default as CardStyle_1 } from './ReactComponents/Cards';

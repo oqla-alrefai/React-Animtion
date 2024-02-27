@@ -11,11 +11,13 @@ import {
   Accordion,
   MenShirtCard,
   PricingDesign,
+  PhoneVerification,
 } from "../../Components";
 
 function ReactComponents() {
   return (
     <>
+      <PhoneVerification />
       <CuteNavbar />
       <MenShirtCard />
       <PricingDesign />
